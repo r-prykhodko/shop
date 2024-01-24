@@ -6,7 +6,7 @@ def index(request):
     context = {
         'title': 'Home',
         'content': 'Main page of shop',
-        'list': ['first', 'second'],
+        'list': ['first', 'second', 1], # test
         'dict': {'first': 1},
         'is_auth': False
     }
